@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.io/teamtact/https://github.com/teamtact/spring-base-rest.svg)](http://hits.dwyl.io/teamtact/https://github.com/teamtact/spring-base-rest)
+[![HitCount](http://hits.dwyl.io/teamtact/https://github.com/teamtact/spring-base-rest.svg)](http://hits.dwyl.io/teamtact/https://github.com/teamtact/spring-base-rest-minikube)
 
 # spring-base-rest
 Spring Boot REST Boilerplate Project
