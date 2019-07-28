@@ -43,17 +43,24 @@ minikube service spring-base-rest
 	
 ## Delete the current serices & deployments
 kubectl delete service spring-base-rest
+
 kubectl delete deployment spring-base-rest
 
 ## Commands (with yaml files)ß
 kubectl apply -f backend-deployment.yaml
+
 kubectl get deployments
 
+
 kubectl get deployment spring-base-rest
+
 kubectl apply -f backend-service.yaml
+
 kubectl get services
+
 minikube service spring-base-rest-service
 
 ## Delete all deployements & services
 kubectl delete service spring-base-rest-service
+
 kubectl delete deployment spring-base-rest
