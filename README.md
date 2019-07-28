@@ -27,11 +27,17 @@ Spring Boot REST Boilerplate Project
 
 ## Commands (without yaml files)
 kubectl run spring-base-rest --image=spring-base-rest:latest --port=8080 --image-pull-policy Never
+
 kubectl get deployments
+
 kubectl get pods
+
 kubectl logs 
+
 kubectl expose deployment spring-base-rest --type=NodePort
+
 kubectl get services
+
 minikube service spring-base-rest
 	http://192.168.99.104:31727/
 	
