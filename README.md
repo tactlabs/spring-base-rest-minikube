@@ -39,7 +39,6 @@ kubectl expose deployment spring-base-rest --type=NodePort
 kubectl get services
 
 minikube service spring-base-rest
-	http://192.168.99.104:31727/
 	
 ## Delete the current serices & deployments
 kubectl delete service spring-base-rest
