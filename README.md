@@ -45,7 +45,7 @@ kubectl delete service spring-base-rest
 
 kubectl delete deployment spring-base-rest
 
-## Commands (with yaml files)ß
+## Commands (with yaml files)
 kubectl apply -f backend-deployment.yaml
 
 kubectl get deployments
